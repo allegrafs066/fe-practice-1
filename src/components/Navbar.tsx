@@ -10,8 +10,10 @@ function Navbar() {
       </div>
 
       <div className="flex flex-row-reverse ">
-        <button>Sign in</button>
-        <button className="mx-4">Submit a Request</button>
+        <button className="bg-[#4C5FD5] p-4 rounded">Sign in</button>
+        <button className="mx-4 p-4 rounded border-2 border-white">
+          Submit a Request
+        </button>
       </div>
     </div>
   );

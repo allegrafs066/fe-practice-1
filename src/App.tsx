@@ -1,14 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Navbar />
@@ -22,8 +17,8 @@ function App() {
             </form>
           </div>
         </div>
-        <div className="flex justify-between p-64 space-x-24">
-          <div className="flex-col space-y-32">
+        <div className="flex justify-between p-48 space-x-24">
+          <div className="flex-col space-y-48">
             <Card
               img="https://theme.zdassets.com/theme_assets/2197739/aed6500f4da41c641f3de5d96247eb6654e9c386.png"
               alt="using_abstract"
@@ -46,7 +41,7 @@ function App() {
               link=""
             />
           </div>
-          <div className="flex-col space-y-32">
+          <div className="flex-col space-y-48">
             <Card
               img="https://theme.zdassets.com/theme_assets/2197739/91588b3d042df901d9b941ccbb57af4f151401c7.png"
               alt="manage_account"

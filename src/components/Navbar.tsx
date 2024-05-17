@@ -6,7 +6,7 @@ function Navbar() {
       <div className="flex-1 flex">
         <div>Logo Container</div>
         <div className="mx-4">|</div>
-        <div>Help</div>
+        <div>Help Center</div>
       </div>
 
       <div className="flex flex-row-reverse ">
